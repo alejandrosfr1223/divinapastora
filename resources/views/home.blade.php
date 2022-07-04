@@ -41,6 +41,42 @@
             </div>
         </div>
 
+        <div class="home_container notmain">
+            <div class="row gx-0">
+                <div class="col-6 col-md-3 contimgdivpast">
+                    <img src="{{ asset('/img/divinapastora/IMG_3691.JPG') }}" class="img-fluid imgsdivpast">
+                </div>
+                <div class="col-6 col-md-3 contimgdivpast">
+                    <img src="{{ asset('/img/divinapastora/20220513_105735.jpg') }}" class="img-fluid imgsdivpast">
+                </div>
+                <div class="col-6 col-md-3 contimgdivpast">
+                    <img src="{{ asset('/img/divinapastora/20220513_100126.jpg') }}" class="img-fluid imgsdivpast">
+                </div>
+                <div class="col-6 col-md-3 contimgdivpast">
+                    <img src="{{ asset('/img/divinapastora/20220513_102017.jpg') }}" class="img-fluid imgsdivpast">
+                </div>
+            </div>
+        </div>
+
+        <div class="yellowbg">
+            <img src="{{ asset('/img/home/logo-overlay2.png') }}" class="backg-ovrl3 bigscreen ol2-l">
+            <img src="{{ asset('/img/logos/vector-logo.svg') }}" class="backg-ovrl3 smallscreen">
+            <div id="div_past_pestanas2">
+                <a href="" class="dp_cont">
+                    <h2>{{ trans("home.dp_p_1") }}</h2>
+                    <p style="color: white;">{{ trans("home.dp_p_1_txt") }}</p>
+                </a>
+                <a href="" class="dp_cont">
+                    <h2>{{ trans("home.dp_p_2") }}</h2>
+                    <p style="color: white;">{{ trans("home.dp_p_2_txt") }}</p>
+                </a>
+                <a href="" class="dp_cont">
+                    <h2>{{ trans("home.dp_p_3") }}</h2>
+                    <p style="color: white;">{{ trans("home.dp_p_3_txt") }}</p>
+                </a>
+            </div>
+        </div>
+
         <div class="home_container" id="whitebg">
             <div style="position: relative;">
                 <img src="{{ asset('/img/home/logo-overlay2r.png') }}" class="backg-ovrl2 bigscreen ol2-r">
