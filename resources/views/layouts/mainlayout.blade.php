@@ -84,25 +84,25 @@
             @auth
                 @if (Auth::user()->roles->first() == [])
                     <li class="nav-item">
-                      <a class="nav-link {{ request()->routeIs('diffusion.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
+                      <a class="nav-link {{ request()->routeIs('perks.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
                     </li>
                 @else
                     @if (Auth::user()->roles->first()->name == "Administrador" || Auth::user()->roles->first()->name == "Operador")
                         <li class="nav-item right-border">
-                          <a class="nav-link {{ request()->routeIs('diffusion.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
+                          <a class="nav-link {{ request()->routeIs('perks.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
                         </li>
                         <li class="nav-item right-border">
                           <a class="nav-link {{ request()->routeIs('dashboard') ? 'active' : '' }}" href="jdr/admin">{{ trans("mainlayout.dashboard") }}</a>
                         </li>
                     @else
                         <li class="nav-item right-border">
-                          <a class="nav-link {{ request()->routeIs('diffusion.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
+                          <a class="nav-link {{ request()->routeIs('perks.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
                         </li>
                     @endif
                 @endif
             @else
                 <li class="nav-item right-border">
-                  <a class="nav-link {{ request()->routeIs('diffusion.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
+                  <a class="nav-link {{ request()->routeIs('perks.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
                 </li>
             @endauth
             <li class="nav-item">
