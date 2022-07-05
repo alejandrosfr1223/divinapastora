@@ -43,10 +43,11 @@
 
         <div class="whitebg" style="position: relative;">
             <div id="containermv">
-                <div class="mv_cont">
-                    <p>A través de las misiones, los capuchinos consiguieron sembrar la devoción a la Divina Pastora en todos los lugares del mundo, arraigando de una forma muy especial en España, centro y sur de América y sur de Italia. En torno a esta advocación mariana y la evolución de su devoción, que se adapta a las peculiaridades antropológicas de cada lugar, se desarrollará toda una cultura pastoreña, cuyo producto serán un sinfín de obras de arte.</p>
+                <div class="mv_cont textinfofisidoro">
+                    <p class="textisidoro">A través de las misiones, los capuchinos consiguieron sembrar la devoción a la Divina Pastora en todos los lugares del mundo, arraigando de una forma muy especial en España, centro y sur de América y sur de Italia. En torno a esta advocación mariana y la evolución de su devoción, que se adapta a las peculiaridades antropológicas de cada lugar, se desarrollará toda una cultura pastoreña, cuyo producto serán un sinfín de obras de arte.</p>
                 </div>
-                <div class="mv_cont" id="photo_bg_dp1">
+                <div class="mv_cont">
+                    <img src="{{ asset('/img/bgdivinapastora1.png') }}" >
                 </div>
             </div>
         </div>
@@ -54,10 +55,10 @@
         <div class="bluebg" style="position: relative;">
             <div id="containermv2">
                 <div id="photo_bg_dp2">
-                    
+                    <img src="{{ asset('/img/fisidorobg.png') }}" >
                 </div>
-                <div id="textinfofisidoro">
-                    <p style="color:white; font-size:1.25rem;">El presente proyecto plantea el estudio histórico, artístico y devocional, de una forma crítica y científica del fenómeno cultural y religioso que nace y se desarrolla en torno a la devoción a la Divina Pastora, poniendo en valor la figura de Fray Isidoro de Sevilla, los continuadores de su obra y el apostolado mariano que realizaron; el Convento de Capuchinos de Sevilla, como cuna de la Devoción Pastoreña o las fundaciones piadosas en torno a la Divina Pastora para el fomento y cuidado de su culto, entre otros muchos temas relacionados con la cultura pastoreña.</p>
+                <div class="textinfofisidoro tex">
+                    <p class="textisidoro textpresente">El presente proyecto plantea el estudio histórico, artístico y devocional, de una forma crítica y científica del fenómeno cultural y religioso que nace y se desarrolla en torno a la devoción a la Divina Pastora, poniendo en valor la figura de Fray Isidoro de Sevilla, los continuadores de su obra y el apostolado mariano que realizaron; el Convento de Capuchinos de Sevilla, como cuna de la Devoción Pastoreña o las fundaciones piadosas en torno a la Divina Pastora para el fomento y cuidado de su culto, entre otros muchos temas relacionados con la cultura pastoreña.</p>
                 </div>
             </div>
         </div>

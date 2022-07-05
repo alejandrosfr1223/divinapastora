@@ -61,17 +61,7 @@
     border-radius: 5px;
 }
 
-#photo_bg_dp1{
-    background-image: url("../img/bgdivinapastora1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 #photo_bg_dp2{
-    background-image: url("../img/fisidorobg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 1rem;
     width: 30%;
     display: table-cell;
     vertical-align: middle;
