@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan del Rincón</title>
+    <title>Divina Pastora de Almas</title>
 
     <link rel="text/javascript" href="{{ URL::asset('/js/bootstrap.min.js') }}" />
 
@@ -46,10 +46,10 @@
             <table style="margin-top:20px;">
                 <tr>
                     <td>
-                        <img src="{{ asset('/img/logos/logo-fid-llave.png') }}" style="margin-right: 10px; width: 5rem;">
+                        <img class="changecolorpngsyellow" src="{{ asset('/img/home/Divinapastora.png') }}" style="margin-right: 10px; width: 5rem;">
                     </td>
                     <td>
-                        <h1 style="margin: auto; font-weight:bold; padding-left: 10px; color:#606060; font-size: 2.5rem; border-left: 1px #606060 solid;">Juan Del Rincón</h1>
+                        <h1 style="margin: auto; font-weight:bold; padding-left: 10px; color:#606060; font-size: 2.5rem; border-left: 1px #606060 solid;">Divina Pastora de Almas</h1>
                     </td>
                 </tr>
             </table>
@@ -72,6 +72,15 @@
             <li class="nav-item right-border">
               <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" href="{{route('home')}}">{{ trans("mainlayout.home") }}</a>
             </li>
+            <li class="nav-item right-border">
+              <a class="nav-link {{ request()->routeIs('frayisidoro.*') ? 'active' : '' }}" href="{{route('frayisidoro.home')}}">Fray Isidoro de Sevilla</a>
+            </li>
+            <li class="nav-item right-border">
+              <a class="nav-link {{ request()->routeIs('conventodesevilla.*') ? 'active' : '' }}" href="{{route('conventodesevilla.home')}}">El Convento de Sevilla</a>
+            </li>
+            <li class="nav-item right-border">
+              <a class="nav-link {{ request()->routeIs('divinapastora.*') ? 'active' : '' }}" href="{{route('divinapastora.home')}}">La Divina Pastora</a>
+            </li>
             @auth
                 @if (Auth::user()->roles->first() == [])
                     <li class="nav-item">
@@ -82,21 +91,23 @@
                         <li class="nav-item right-border">
                           <a class="nav-link {{ request()->routeIs('diffusion.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item right-border">
                           <a class="nav-link {{ request()->routeIs('dashboard') ? 'active' : '' }}" href="jdr/admin">{{ trans("mainlayout.dashboard") }}</a>
                         </li>
                     @else
-                        <li class="nav-item">
+                        <li class="nav-item right-border">
                           <a class="nav-link {{ request()->routeIs('diffusion.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
                         </li>
                     @endif
                 @endif
             @else
-                <li class="nav-item">
+                <li class="nav-item right-border">
                   <a class="nav-link {{ request()->routeIs('diffusion.*') ? 'active' : '' }}" href="{{route('perks.home')}}">Aportar</a>
                 </li>
             @endauth
-            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.corporacioncabv.com/fid">Volver al FID</a>
+            </li>
         </div>
       </div>
     </nav>
@@ -113,10 +124,10 @@
             <table id="footerlogo">
                 <tr>
                     <td>
-                        <img class="footer_img" src="{{ asset('/img/logos/logo-fid-llave.png') }}">
+                        <img class="footer_img changecolorpngsyellow" src="{{ asset('/img/home/Divinapastora.png') }}">
                     </td>
                     <td>
-                        <h1 class="footer_key">Juan del Rincón</h1>
+                        <h1 class="footer_key">Divina Pastora de Almas</h1>
                     </td>
                 </tr>
             </table>
@@ -140,7 +151,7 @@
               {{ trans("mainlayout.mail") }}:
             </p>
             <p class="centeremojistext" style="font-weight: bold; color: white; font-size: 1.2rem; display: flex; margin:10px 0;">
-              {!! Emoji::toImage(':email:') !!} jdr@sefaruniversal.com
+              {!! Emoji::toImage(':email:') !!} fid@sefaruniversal.com
             </p>
             
             <br>

@@ -45,6 +45,21 @@ class RouteServiceProvider extends ServiceProvider
                 ->name('perks.')
                 ->prefix('perks')
                 ->group(base_path('routes/perks.php'));
+
+            Route::middleware('web')
+                ->name('frayisidoro.')
+                ->prefix('frayisidoro')
+                ->group(base_path('routes/frayisidoro.php'));
+            
+            Route::middleware('web')
+                ->name('conventodesevilla.')
+                ->prefix('conventodesevilla')
+                ->group(base_path('routes/conventodesevilla.php'));
+            
+            Route::middleware('web')
+                ->name('divinapastora.')
+                ->prefix('divinapastora')
+                ->group(base_path('routes/divinapastora.php'));
         });
     }
 

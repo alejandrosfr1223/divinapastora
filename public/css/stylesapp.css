@@ -459,8 +459,16 @@ footer {
     object-position: center;
 }
 
+#containermv2 {
+    display: flex;
+}
+
+#textinfofisidoro {
+    width:70%; padding: 4rem 9rem 4rem 3rem;
+}
+
 .mv_cont p {
-    padding: 0px 10px;
+    padding: 2.5rem 2rem 2.5rem 7rem;
     color: #12313a !important;
     font-size: 1.1rem;
 }
@@ -499,8 +507,7 @@ footer {
 
 #containermv {
     margin: auto;
-    width: 85%;
-    padding: 2rem 0;
+    width: 100%;
 }
 
 .clmain_divpastora{
@@ -763,11 +770,35 @@ footer {
     width:45%;
 }
 
+#photo_bg_dp2 {
+    width:40%;
+}
+
 .img_logotitle{
     width: 70px;
 }
 
 @media screen and (max-width: 990px) {
+    #photo_bg_dp1{
+        height: 51.5vh;
+    }
+    #photo_bg_dp2{
+        width: 100%;
+        height: 70vh;
+    }
+    #containermv2{
+        display: grid;
+    }
+    #textinfofisidoro {
+        width:100%;
+        padding: 1.5rem;
+        text-align: center;
+    }
+    .mv_cont p {
+        padding: 0.5rem;
+        color: #12313a !important;
+        font-size: 1.1rem;
+    }
     #wbg {
         width: 90%;
     }
