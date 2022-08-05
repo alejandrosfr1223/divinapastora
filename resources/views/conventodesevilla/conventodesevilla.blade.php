@@ -9,10 +9,6 @@
                     <tr>
                         <td>
                             <div class='welcomescreen'>
-                                <span class="members_index_icons fa-stack fa-2x">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fas fa-search fa-stack-1x fa-inverse"></i>
-                                </span>
                                 <h1 class="title_notmain">El Convento de Sevilla</h1>
                             </div>
                         </td>

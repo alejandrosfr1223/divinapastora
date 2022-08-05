@@ -9,7 +9,7 @@
                     <tr>
                         <td>
                             <div class='welcomescreen'>
-                                <h1 class="title_notmain">Fray Isidoro de Sevilla</h1>
+                                <h1 class="title_notmain">Devoción a la Divina Pastora en España</h1>
                             </div>
                         </td>
                     </tr>
@@ -30,7 +30,7 @@
                     <div style="width: 100%; padding: 20px;">
                         <center>
                             <img class="imglogo_subpage changecolorpngsyellow" src="{{ asset('/img/home/Divinapastora.png') }}" />
-                            <h2>Fray Isidoro de Sevilla</h2>
+                            <h2>Devoción a la Divina Pastora en España</h2>
                         </center>
                     </div>
                 </div>

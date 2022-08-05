@@ -9,10 +9,6 @@
                     <tr>
                         <td>
                             <div class='welcomescreen'>
-                                <span class="members_index_icons fa-stack fa-2x">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fas fa-search fa-stack-1x fa-inverse"></i>
-                                </span>
                                 <h1 class="title_notmain">Perks</h1>
                             </div>
                         </td>
@@ -21,11 +17,8 @@
             </div>
         </div>
         <div class="home_container notmain" id="whitebg">
-
-
             <div id='departments_cont'>
                 <div class="leftdivide" id="dep_info_cnt">
-                    
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>

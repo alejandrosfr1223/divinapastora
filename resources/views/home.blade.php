@@ -83,7 +83,7 @@
         <div class="yellowbg">
             <img src="{{ asset('/img/home/logo-overlay2.png') }}" class="backg-ovrl3 bigscreen ol2-l">
             <img src="{{ asset('/img/logos/vector-logo.svg') }}" class="backg-ovrl3 smallscreen">
-            <div id="div_past_pestanas2">
+            <div class="div_past_pestanas2">
                 <a href="{{ route('frayisidoro.home') }}" class="dp_cont">
                     <h2>{{ trans("home.dp_p_1") }}</h2>
                     <p style="color: white;">{{ trans("home.dp_p_1_txt") }}</p>
@@ -95,6 +95,21 @@
                 <a href="{{ route('divinapastora.home') }}" class="dp_cont">
                     <h2>{{ trans("home.dp_p_3") }}</h2>
                     <p style="color: white;">{{ trans("home.dp_p_3_txt") }}</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="bluebg" style="position: relative;">
+            <img src="{{ asset('/img/logos/vector-logo.svg') }}" class="backg-ovr-sc">
+            <h2 class="bluebgtitle">Devoción a La Divina Pastora en</h2>
+            <div class="div_past_pestanas2">
+                <a href="{{ route('divinapastora.espana') }}" class="dp_cont2">
+                    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/joypixels/340/flag-spain_1f1ea-1f1f8.png" style="margin: auto; width: 100px;"/>
+                    <h4 style="color: white !important; text-align: center;">España</h4>
+                </a>
+                <a href="{{ route('divinapastora.venezuela') }}" class="dp_cont2">
+                    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/joypixels/340/flag-venezuela_1f1fb-1f1ea.png" style="margin: auto; width: 100px;"/>
+                    <h4 style="color: white !important; text-align: center;">Venezuela</h4>
                 </a>
             </div>
         </div>

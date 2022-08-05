@@ -79,7 +79,7 @@
               <a class="nav-link {{ request()->routeIs('conventodesevilla.*') ? 'active' : '' }}" href="{{route('conventodesevilla.home')}}">El Convento de Sevilla</a>
             </li>
             <li class="nav-item right-border">
-              <a class="nav-link {{ request()->routeIs('divinapastora.*') ? 'active' : '' }}" href="{{route('divinapastora.home')}}">La Divina Pastora</a>
+              <a class="nav-link {{ request()->routeIs('divinapastora.*') ? 'active' : '' }}" href="{{route('divinapastora.home')}}">Devoción Universal</a>
             </li>
             @auth
                 @if (Auth::user()->roles->first() == [])
