@@ -55,7 +55,7 @@
         <div class="bluebg" style="position: relative;">
             <div id="containermv2">
                 <div id="photo_bg_dp2">
-                    <img src="{{ asset('/img/fisidorobg.png') }}" >
+                    <img src="{{ asset('/img/fisidorobg.jpg') }}" style="padding-bottom:0rem !important;" >
                 </div>
                 <div class="textinfofisidoro tex">
                     <p class="textisidoro textpresente">El presente proyecto plantea el estudio histórico, artístico y devocional, de una forma crítica y científica del fenómeno cultural y religioso que nace y se desarrolla en torno a la devoción a la Divina Pastora, poniendo en valor la figura de Fray Isidoro de Sevilla, los continuadores de su obra y el apostolado mariano que realizaron; el Convento de Capuchinos de Sevilla, como cuna de la Devoción Pastoreña o las fundaciones piadosas en torno a la Divina Pastora para el fomento y cuidado de su culto, entre otros muchos temas relacionados con la cultura pastoreña.</p>

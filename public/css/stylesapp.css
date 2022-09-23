@@ -818,7 +818,28 @@ footer {
     width: 70px;
 }
 
+#containermv2{
+    padding: 0px 0px 0px 2rem;
+}
+#photo_bg_dp2{
+    margin: auto;
+}
+#photo_bg_dp2 img{
+    height:100%;
+    padding-bottom:3rem;
+}
+
 @media screen and (max-width: 990px) {
+    #containermv2{
+        padding: 0px;
+    }
+    #photo_bg_dp2 img{
+        padding-bottom:0rem;
+    }
+    #dep_info_cnt {
+        width: 100%;
+        padding: 1rem 3rem;
+    }
     #photo_bg_dp2{
         width: 100%;
     }
